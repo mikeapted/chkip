@@ -3,21 +3,21 @@ Command line tool to retrieve current IP
 
 ## Installation
 
-  `npm install chkip`
+`npm install chkip`
 
 ## Usage
 
-    var chkip = require('chkip');
+var chkip = require('chkip');
 
-    var myIp = chkip();
-  
-  
-  Output should be `XXX.XXX.XXX.XXX`
+chkip((ip) => {
+  console.log(ip);
+});      
 
+Output should be `XXX.XXX.XXX.XXX`
 
 ## Tests
 
-  `npm test`
+`npm test`
 
 ## Contributing
 
