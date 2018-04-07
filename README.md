@@ -3,11 +3,11 @@ Command line tool to retrieve current IP
 
 ## Installation
 
-  `npm install @mikeapted/chkip`
+  `npm install chkip`
 
 ## Usage
 
-    var chkip = require('@mikeapted/chkip');
+    var chkip = require('chkip');
 
     var myIp = chkip();
   

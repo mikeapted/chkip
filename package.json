@@ -2,12 +2,13 @@
   "name": "chkip",
   "version": "0.1.1",
   "description": "Command line tool to retrieve current IP",
-  "main": "src/index.js",
+  "main": "./src/index.js",
   "scripts": {
     "start": "node .",
     "test": "mocha --reporter spec",
     "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*"
   },
+  "engines" : { "node" : ">=6.0.0" },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mikeapted/chkip.git"

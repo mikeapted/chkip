@@ -7,7 +7,7 @@ const CHECK_URL = 'https://checkip.amazonaws.com/';
  * Return current IP address using https://checkip.amazonaws.com/
  * @return {string}
  */
-module.exports = function() {
+module.exports = function(callback) {
   https.get(CHECK_URL, (resp) => {
     let data = '';
    
@@ -18,11 +18,11 @@ module.exports = function() {
    
     // The whole response has been received. Print out the result.
     resp.on('end', () => {
-      return data;
+      callback(data);
     });
    
   }).on('error', (err) => {
     console.log('Error: ' + err.message);
-    return data;
+    callback(data);
   });
 };

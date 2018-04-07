@@ -2,4 +2,6 @@
 
 const aws = require('./aws');
 
-return aws();
+aws((myIP) => {
+  console.log(myIP);
+});
