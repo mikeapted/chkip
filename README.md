@@ -7,11 +7,11 @@ Command line tool to retrieve current IP
 
 ## Usage
 
-var chkip = require('chkip');
+  var chkip = require('chkip');
 
-chkip((ip) => {
-  console.log(ip);
-});      
+  chkip((ip) => {
+    console.log(ip);
+  });      
 
 Output should be `XXX.XXX.XXX.XXX`
 
