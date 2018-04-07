@@ -2,6 +2,8 @@
 
 const aws = require('./aws');
 
-aws((myIP) => {
-  console.log(myIP);
-});
+module.exports = function(number, locale) {
+  aws((myIP) => {
+    return myIP;
+  });
+}
