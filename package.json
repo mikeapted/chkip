@@ -1,0 +1,25 @@
+{
+  "name": "chkip",
+  "version": "0.1.0",
+  "description": "Command line tool to retrieve current IP",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node .",
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikeapted/chkip.git"
+  },
+  "author": "Mike Apted <mike.apted@gmail.com> (mike.apted@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikeapted/chkip/issues"
+  },
+  "homepage": "https://github.com/mikeapted/chkip#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.0.5"
+  },
+  "dependencies": {}
+}
