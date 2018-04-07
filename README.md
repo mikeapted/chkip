@@ -1,5 +1,9 @@
+
+![Build Status](https://codebuild.us-east-1.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoicitXTUdlNXFuMmxobXg3RGxVL29sRkNoMWFLVHNRNU5vQ3FqdG1rZ3JrKy8zVG04V1E5MXh0cnlwbVFnRVpBNituenptOW5CdXViS1YvcFAwSVZyaWFVPSIsIml2UGFyYW1ldGVyU3BlYyI6ImU0ek15WlRtVm9KeUQ5OHgiLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=master) [![GitHub license](https://img.shields.io/github/license/mikeapted/chkip.svg)](https://github.com/mikeapted/chkip/blob/master/LICENSE)
+
+
 # chkip
-Command line tool to retrieve current IP
+Retrieve current IP address
 
 ## Installation
 
