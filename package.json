@@ -1,6 +1,6 @@
 {
   "name": "chkip",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "Retrieve current IP address",
   "main": "./src/index.js",
   "scripts": {
